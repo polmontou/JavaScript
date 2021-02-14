@@ -13,9 +13,12 @@ Vous allez ici **récréer cette logique dans la console du navigateur**.
 
 Commencer par créer une variable assignée à un objet Date :
 
-`var myDate = new Date();`
+```js
+const myDate = Date.now();
+```
 
-Vous pouvez désormais appeler des _méthodes_ sur cette variable _myDate_. Retrouvez la liste des méthodes disponibles sur le site [https://www.w3schools.com/jsref/jsref_obj_date.asp](https://www.w3schools.com/jsref/jsref_obj_date.asp)
+Vous pouvez désormais appeler des _méthodes_ sur cette variable _myDate_.
+Retrouvez la liste des méthodes disponibles sur le site [https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Date](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Date)
 
 Créer une variable de type _String_ contenant le message à afficher dans le cas où nous sommes un jour de semaine.
 
