@@ -2,8 +2,6 @@
 
 Avant d'écrire du code JavaScript, il est important de savoir le lire, c'est le but de cette partie.
 
-Rendez vous dans le répertoire `/exo-0`
-
 ### Section 1 : Commentaires
 
 L'objectif est de commenter **chaque ligne de code** du fichier `index.html` avec une phrase en français qui explique ce qu'elle fait.
