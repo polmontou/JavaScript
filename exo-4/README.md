@@ -9,7 +9,7 @@
 Nous allons retravailler le contenu de ce tableau :
 `var secretMessage = ["Learning", "isn't", "about", "what", "you", "get", "easily", "the", "first", "time,", "it's", "about", "what", "you", "can", "figure", "out.", "-2015,", "Chris", "Pine,", "Learn", "JavaScript"];`
 
-Vous aurez besoin de la [documentation sur les tableaux](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), notamment pour trouver les bonnes méthodes.
+Vous aurez besoin de la [documentation sur les tableaux](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array), notamment pour trouver les bonnes méthodes.
 
 1. Utiliser une méthode pour enlever le dernier élément du tableau `secretMessage`.
 2. Utiliser une méthode pour ajouter les mots 'to' and 'program' comme des éléments distincts à la fin du tableau.
