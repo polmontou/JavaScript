@@ -22,7 +22,7 @@ Nous pouvons aussi exprimer une température en Fahrenheit avec la formule :
 
 Lorsque nous faisons cette conversion, il est très probable d'avoir un nombre avec des décimales, nous allons donc arrondir ce nombre.
 
-4. En utilisant la méthode [`.floor()`](https://www.w3schools.com/jsref/jsref_floor.asp) de la bibliothèque standard, modifier le résultat de la variable `fahrenheits` pour obtenir un entier. Ecrire un commentaire pour expliquer cette ligne de code.
+4. En utilisant la méthode [`.floor()`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Math/floor) de la bibliothèque standard, modifier le résultat de la variable `fahrenheits` pour obtenir un entier. Ecrire un commentaire pour expliquer cette ligne de code.
 
 5. Nous voulons modifier le programme afin de demander la température en Kelvins à l'utilisateur et lui afficher ensuite les conversions dans la console du navigateur.
    Remplacer la première ligne de code par :
