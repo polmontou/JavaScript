@@ -24,14 +24,14 @@ Notre code va se décomposer en 4 parties :
 
 2. Créer une fonction `getPlayerChoice()` qui prend en paramètre un seul argument `playerInput`
 
-3. Puisque nous ne pouvons pas être certains que l'utilisateur va taper 'Rock' ou 'rock', nous devons être insensible à la casse : nous allons dans un premier temps utiliser la fonction [`toLowerCase()`](https://www.w3schools.com/jsref/jsref_tolowercase.asp) pour transformer en minuscules la chaine de caractères `playerInput`.
+3. Puisque nous ne pouvons pas être certains que l'utilisateur va taper 'Rock' ou 'rock', nous devons être insensible à la casse : nous allons dans un premier temps utiliser la fonction [`toLowerCase()`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/toLowerCase) pour transformer en minuscules la chaine de caractères `playerInput`.
 
 4. Nous devons aussi nous assurer que l'utilisateur rentre bien un des trois choix : 'rock', 'paper', ou 'scissors'.
    A l'intérieur de la fonction `getPlayerChoice()`, écrire une condition qui vérifie que la valeur entrée par l'utilisateur est bien l'une de ces trois valeurs attendues. Si c'est le cas, la fonction retourne la chaine de caractères `playerInput`, sinon afficher un message d'erreur dans la console.
 
 5. C'est maintenant à l'ordinateur de faire un choix.
    Créer une nouvelle fonction `getComputerChoice()` qui ne prend pas de paramètre.
-   A l'intérieur, en utilisant la fonction [`Math.random()`](https://www.w3schools.com/jsref/jsref_random.asp), tirer un nombre aléatoire entre 0 et 2 inclus : [0;2]. Suivant le résultat, la fonction doit retourner une valeur parmi {'rock', 'paper', 'scissors'}.
+   A l'intérieur, en utilisant la fonction [`Math.random()`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Math/random), tirer un nombre aléatoire entre 0 et 2 inclus : [0;2]. Suivant le résultat, la fonction doit retourner une valeur parmi {'rock', 'paper', 'scissors'}.
 
 Maintenant, nous devons déterminer le gagnant.
 
