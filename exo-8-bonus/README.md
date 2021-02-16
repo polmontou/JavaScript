@@ -4,14 +4,14 @@ Pour les plus téméraires ! Inutile de se lancer si les exercices précédents 
 
 ### Arithmétique : Aller plus loin
 
-Faire une fonction qui indique si un nombre est divisable par un autre (eg. le résultat est un entier fini exploitable => dans l'intervalle ]-Number.MAX_NUMBER; Number.MAX_NUMBER[ ) avec un résultat pair.
+Faire une fonction qui indique si un nombre est divisable par un autre (par exemple, le résultat est un entier fini exploitable => dans l'intervalle ]-Number.MIN_VALUE; Number.MAX_VALUE[ ) avec un résultat pair.
 Entrées (paramètres) :
 
 - val1 : Number
 - val2 : Number
 
 Sortie (valeur de retour) :
-Vrai si val1/val2 est un entier pair sur ]-Number.MAX_NUMBER; Number.MAX_NUMBER[. Faux sinon.
+Vrai si val1/val2 est un entier pair sur ]-Number.MIN_VALUE; Number.MAX_VALUE[. Faux sinon.
 
 #### Valeurs de tests
 
@@ -35,7 +35,7 @@ Entrées (paramètres) :
 - arr2 : Array
 
 Sortie (valeur de retour) :
-Vrai si les 2 tableaux ont strictement les mêmes valeurs (mêmes tailles, mêmes valeurs). Avec une particularité néanmoins : "4" == 4
+Vrai si les 2 tableaux ont strictement les mêmes valeurs (mêmes tailles, mêmes valeurs). Avec une particularité néanmoins : on considère que "4" est égal à 4 ("4" == 4)
 À toi de préciser le comportement en cas de valeurs undefined ou NaN.
 
 #### Valeurs de tests
@@ -66,10 +66,10 @@ Vrai si les 2 objets ont strictement les mêmes propriétés et valeurs (même n
 
 #### Fiabiliser son code
 
-Pour chacune de vos fonctions, la commenter proprement (indiquer au-dessus le nombre de paramètres attendus, leur type, l'ensemble de valeurs attendu (si déifni ; par exemple : [0; inifinity[ ), leur utilité -> ce sont les _préconditions_ de la fonction. Faites de même pour la valeur de retour -> c'est la _postcondition_). Assurez-vous ensuite en début de fonction que les préconditions sont remplies (vérifiez le type des paramètres et s'ils sont bien dans l'intervalle définis) ; dans le cas contraire, afficher un message et retourner une valeur d'erreur (elle-même à définir) dans les commentaires de fonction.
+Pour chacune de vos fonctions, la commenter proprement (indiquer au-dessus le nombre de paramètres attendus, leur type, l'ensemble de valeurs attendu (si défini ; par exemple : [0; inifinity[ ), leur utilité -> ce sont les _préconditions_ de la fonction. Faites de même pour la valeur de retour -> c'est la _postcondition_). Assurez-vous ensuite en début de fonction que les préconditions sont remplies (vérifiez le type des paramètres et s'ils sont bien dans l'intervalle définis) ; dans le cas contraire, afficher un message et retourner une valeur d'erreur (elle-même à définir) dans les commentaires de fonction.
 _C'est entre-autres ainsi que les développeurs de la NASA s'assurent que leurs collaborateurs astronautes ne finissent pas dans un astéroïde à cause d'une fonction mal appelée !_
 
 #### Fonctions variadiques : Nombre variable d'arguments
 
-Modifier (fais un backup avant !) les fonctions de [Arrays et boucles : Découvrir davantage](#arrays-et-boucles--découvrir-davantage) et [Objets : Découvrir davantage](#objets--découvrir-davantage) pour accepter un nombre variable d'arguments (paramètres). Ainsi, vous pourrez appeler chacune de ces fonctions avec autant de paramètres que vous le souhaitez. Elle retourneront vrai si l'ensemble des arguments sont égaux tels que définis dans leurs exercices respectifs.
+Modifier (fais un backup avant !) les fonctions de [Arrays et boucles : Découvrir davantage](#arrays-et-boucles--découvrir-davantage) et [Objets : Découvrir davantage](#objets--découvrir-davantage) pour accepter un nombre variable d'arguments (paramètres). Ainsi, vous pourrez appeler chacune de ces fonctions avec autant de paramètres que vous le souhaitez. Elles retourneront vrai si l'ensemble des arguments sont égaux tels que définis dans leurs exercices respectifs.
 S'il n'y a qu'un argument, on retourne vrai.
