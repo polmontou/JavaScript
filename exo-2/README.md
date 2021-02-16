@@ -6,7 +6,7 @@
 
 ---
 
-Le site [https://estcequecestbientotleweekend.fr/](https://estcequecestbientotleweekend.fr/) affiche un message selon le jour et l'heure dans la semaine : pas du tout, pas encore, bientôt, presque, c'est le weekend, etc... ).
+Le site [https://estcequecestbientotleweekend.fr/](https://estcequecestbientotleweekend.fr/) affiche un message selon le jour et l'heure dans la semaine : pas du tout, pas encore, bientôt, presque, c'est le weekend, etc.
 Vous allez ici **récréer cette logique dans la console du navigateur**.
 
 1. Mise en place
@@ -30,7 +30,7 @@ Créer une autre variable de type String contenant le message à afficher dans l
 
 4. De la même manière que pour le **3.**, créer une nouvelle condition si nous sommes un lundi avant 9h, afficher le message du weekend.
 
-Votre programme est réalisé, mais il difficile de le tester pour savoir si toutes les conditions sont valides. Pour cela, créer en début de programme une variable _isTesting_ de type _booléen_ :
+Votre programme est réalisé, mais il est difficile de le tester pour savoir si toutes les conditions sont valides. Pour cela, créer en début de programme une variable _isTesting_ de type _booléen_ :
 
 - Test activé : lancer notre programme en rentrant manuellement le jour et l'heure pour le tester.
 - Test désactivé : faire tourner le programme avec le jour et l'heure du moment.

@@ -47,7 +47,7 @@ Ceci permettra d'avoir une structure qui liste les catégories composées d'une 
 
 Pour rendre l'utilisation de votre application plus facile, nous allons maintenant travailler son ergonomie.
 
-1. Charger [Bootstrap 4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/) dans le projet.
+1. Charger [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) dans le projet.
 
 2. Afficher les articles et leurs contacts dans un tableau, en utilisant un tableau depuis la documentation de Bootstrap.
 
@@ -55,7 +55,7 @@ Pour rendre l'utilisation de votre application plus facile, nous allons maintena
 
 4. Adapter le filtre et le tri au tableau.
 
-5. Transformer le filtre d'un champ texte en liste déroulante basée sur votre data. Si un traduction est disponible, l'afficher à la place du nom du type.
+5. Transformer le filtre d'un champ texte en liste déroulante basée sur votre data. Si une traduction est disponible, l'afficher à la place du nom du type.
 
 ### Fonctionnalités bonus
 

@@ -20,11 +20,11 @@ Notre code va se décomposer en 4 parties :
 
 - Annoncer le gagnant
 
-1. Créer un variable `var playerInput = prompt("Your choice ( rock, paper, scissors) ?")`correspondant au choix de l'utilisateur.
+1. Créer une variable `var playerInput = prompt("Your choice ( rock, paper, scissors) ?")` correspondant au choix de l'utilisateur.
 
 2. Créer une fonction `getPlayerChoice()` qui prend en paramètre un seul argument `playerInput`
 
-3. Puisque nous ne pouvons pas être certains que l'utilisateur va taper 'Rock' ou 'rock', nous devons être insensible à la casse : nous allons dans un premier temps utiliser la fonction [`toLowerCase()`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/toLowerCase) pour transformer en minuscules la chaine de caractères `playerInput`.
+3. Puisque nous ne pouvons pas être certains que l'utilisateur va taper 'Rock' ou 'rock', nous devons être insensibles à la casse : nous allons dans un premier temps utiliser la fonction [`toLowerCase()`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/toLowerCase) pour transformer en minuscules la chaine de caractères `playerInput`.
 
 4. Nous devons aussi nous assurer que l'utilisateur rentre bien un des trois choix : 'rock', 'paper', ou 'scissors'.
    A l'intérieur de la fonction `getPlayerChoice()`, écrire une condition qui vérifie que la valeur entrée par l'utilisateur est bien l'une de ces trois valeurs attendues. Si c'est le cas, la fonction retourne la chaine de caractères `playerInput`, sinon afficher un message d'erreur dans la console.
@@ -48,9 +48,9 @@ Cette fonction va comparer les choix et va retourner un de ces 3 résultats :
 7. Cas d'égalité.
    A l'intérieur de la fonction `findWinner()`, écrire une condition qui vérifie si le choix de l'utilisateur est égal à celui de l'ordinateur. Si c'est le cas, retourner la chaîne de caractères 'Tied'.
 
-8. Si ce n'est pas une égalité alors quelqu'un a gagné. Commencer par vérifier si `playerChoice` est `rock`. A l'intérieur de cette condition, vérifier si le choix de l'ordinateur est 'scissors'. Si oui, alors retourner 'Won'; sinon retourner 'Lost'.
+8. Si ce n'est pas une égalité alors quelqu'un a gagné. Commencer par vérifier si `playerChoice` est `rock`. A l'intérieur de cette condition, vérifier si le choix de l'ordinateur est 'scissors'. Si oui, alors retourner 'Won' ; sinon retourner 'Lost'.
 
-9. Ensuite, écrire une nouvelle condition pour déterminer si le choix de l'utilisateur est 'paper'. A l'intérieur de cette condition, en fonction du choix de l'ordinateur, retourner une valeur parmi {'Lost', 'Won'}.
+9. Ensuite, écrire une nouvelle condition pour déterminer si le choix de l'utilisateur est 'paper'. À l'intérieur de cette condition, en fonction du choix de l'ordinateur, retourner une valeur parmi {'Lost', 'Won'}.
 
 10. Traiter maintenant le cas où l'utilisateur a choisi 'scissors'.
 

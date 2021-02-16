@@ -8,7 +8,7 @@
 
 1. Compléter le petit exercice qui se trouve en commentaire dans le fichier javascript de l'exercice.
 
-2. Nous allons maintenant créer et extraire des informations à propos de votre équipe de sports préférée. _Choississez votre sport : Basketball, soccer, tennis, water polo..._ Posez vous la question des différentes données à afficher à propos de cette équipe, et comment cette donnée peut être structurée.
+2. Nous allons maintenant créer et extraire des informations à propos de votre équipe de sports préférée. _Choississez votre sport : Basketball, soccer, tennis, water polo..._ Posez-vous la question des différentes données à afficher à propos de cette équipe, et comment cette donnée peut être structurée.
 
 Nous avons besoin dans un premier temps d'une structure de données permettant de stocker des informations multiples sur notre équipe : créer une variable 'team' dont la valeur est un objet vide.
 
@@ -48,4 +48,4 @@ Nous avons besoin dans un premier temps d'une structure de données permettant d
 
 12. Ecrire une fonction qui permet de trouver le joueur le plus âgé.
 
-13. Bonus: Trier les joueurs par ordre alphabétique.
+13. Bonus : Trier les joueurs par ordre alphabétique.
