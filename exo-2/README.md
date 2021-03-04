@@ -26,7 +26,7 @@ Créer une autre variable de type String contenant le message à afficher dans l
 
 2. Créer une nouvelle variable correspondant au jour actuel de la semaine, en appelant une méthode sur la variable `myDate`. Tester cette variable pour savoir si le jour actuel est un jour de semaine ou du weekend. En fonction de la réponse, afficher dans la console le message correspondant.
 
-3. En conservant ce premier test, ajouter la nouvelle condition suivante : en semaine et après vendredi 17h, afficher le message du weekend. Pour cela, créer une nouvelle variable correspondant à l'heure actuelle, toujours à partir de notre variable initiale _myDate_, puis tester cette variable.
+3. En conservant ce premier test, ajouter la nouvelle condition suivante : le vendredi après 17h, afficher le message du weekend. Pour cela, créer une nouvelle variable correspondant à l'heure actuelle, toujours à partir de notre variable initiale _myDate_, puis tester cette variable.
 
 4. De la même manière que pour le **3.**, créer une nouvelle condition si nous sommes un lundi avant 9h, afficher le message du weekend.
 
