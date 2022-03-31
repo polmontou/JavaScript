@@ -16,5 +16,5 @@ Vous aurez besoin de la [documentation sur les tableaux](https://developer.mozil
 3. Changer le mot 'easily' par 'right' en accédant au bon index du tableau.
 4. Utiliser une méthode pour supprimer le premier élément du tableau.
 5. Utiliser une méthode pour ajouter la chaine "Programming" en début de tableau.
-6. Utiliser une méthode pour remplacer les mots 'get', 'right', 'the', 'first', 'time' par 'know'.
+6. Utiliser une méthode pour remplacer la série de cinq mots : 'get', 'right', 'the', 'first', 'time' par un seul mot : 'know'.
 7. Utiliser la méthode `.join` pour afficher le message secret dans la console.
