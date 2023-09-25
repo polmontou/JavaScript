@@ -28,7 +28,7 @@
 
 ## Introduction
 
-~~Au cours de cette activité, nous vous guiderons dans la réalisation des modules de 1 à 8 du [cours "Introduction to JavaScript" du site Codecademy](https://www.codecademy.com/learn/introduction-to-javascript).~~
+Au cours de cette activité, nous vous guiderons dans la réalisation des modules de 1 à 8 du [cours "Introduction to JavaScript" du site Codecademy](https://www.codecademy.com/learn/introduction-to-javascript). Le site codecademy impose la création d'un compte pour accéder aux lessons, mais certains cours restent gratuits. Voici des ressources alternatives :
 
 - En français : https://grafikart.fr/formations/formation-javascript
 - Une approche plus technique : https://developer.mozilla.org/en-US/docs/Learn/JavaScript
