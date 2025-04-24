@@ -11,55 +11,56 @@
 
         /* Section 1 */   
 
-        var name = "Joe";
-        var city = 'London';
-        var age = 32;
-        var isRed = true;
-        var isOld = age > 80;
+        var name = "Joe"; // création variable name qui prend pour valeur le string "Joe"
+        var city = 'London'; // création variable city qui prend pour valeur le string "London"
+        var age = 32; // création variable age qui prend pour valeur l'entier 32
+        var isRed = true; // création variable isRed qui prend pour valeur le booléen true
+        var isOld = age > 80; // création variable isOld qui prend pour valeur le booléen définit par le test age > 80 
 
-        var previousJobs = ['lawyer', 'developper', 'Professionnal climber'];
+        var previousJobs = ['lawyer', 'developper', 'Professionnal climber']; // création variable previousJobs qui prend pour valeur la liste de string
 
-        function info(height, weight) {
-            if (height > 180) {
-                console.log('Vous êtes grand');
+        function info(height, weight) { //création d'une fonction qui prend en paramètre deux variables : height et weight
+            if (height > 180) { // teste si la taille > 180
+                console.log('Vous êtes grand'); // affiche un message dans le terminal si la condition du dessus est validée
             }
-            if (weight < 0) {
-                console.log('oups, there is a problem');
-            } else if ( weight < 15) {
-                console.log('Are you that slim ?')
-            } else {
-                console.log('Good !')
+            if (weight < 0) { // teste si le poids est inférieur à 0
+                console.log('oups, there is a problem'); // affiche un message si la condition au dessus est vérifiée
+            } else if ( weight < 15) { //nouveau test sur le poids qui s'effectue si le premier ne s'est pas réalié
+                console.log('Are you that slim ?') // affiche un message si la condition au dessus est vérifiée
+            } else { //le code suivant s'exécutera seulement si tous les tests précédents n'ont pas été validés
+                console.log('Good !')//affiche un message dans le terminal
             }
         }
 
-        info(165, 45);
+        info(165, 45); // appelle la fonction info définie au-dessus avec 165(height) et 45(weight) en argument
 
-        var myHeight = 175;
-        var myWeight = 86;
+        var myHeight = 175; // création variable myHeight qui prend pour valeur l'entier 175
+        var myWeight = 86; // création variable myWeight qui prend pour valeur l'entier 86
 
-        info(myHeight, myWeight);
+        info(myHeight, myWeight); // appelle la fonction info définie au-dessus avec la valeur des variables myHeight et myWeight en argument
 
-        info(myHeight + 15, myWeight - 100);
+        info(myHeight + 15, myWeight - 100); // appelle la fonction info définie au-dessus avec la valeur des variables myHeight+15(190) et myWeight-100(-14) en argument
 
-        function toUpper(variable) {
-            return variable.toUpperCase();
+        function toUpper(variable) { // création de la fonction toUpper avec un pramètre appelé variable
+            return variable.toUpperCase(); //la fonctionne donne en sortie le paramètre donné en entrée entièrement majusculé
         }
 
-        var upperName = toUpper(name);
+        var upperName = toUpper(name); //création variable upperName qui a pour valeur la srtie de la fonction toUpper à laquelle on donne en argument la variable name
 
-        for (i = 0; i < 3; i = i + 1) {
-            console.log(previousJobs[i]);
+        for (i = 0; i < 3; i = i + 1) { //boucle for où i initialisé à 0 est incrémenté de 1 par tour et la boucle tourne tant que i < 3
+            console.log(previousJobs[i]); //à chaque tour de boucle, affiche l'élément d'index i de la liste previousJobs
         }
 
         /* Section 2: */
 
         // afficher la ville dans laquele Joe vit.     
-
+        console.log(name+" vit à "+city);
         // afficher si Joe est roux ou pas.
-
+        console.log(name+(!isRed ? " n'":" ")+"est"+(!isRed ? "pas":"")+" roux.")
+        
         /* Section 3 */
 
-        // console.log(myVariable);
+        console.log(myVariable); //je lui demande d'afficher une variable qui n'existe pas
 
         </script>
 
