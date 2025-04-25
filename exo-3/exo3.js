@@ -55,8 +55,6 @@ function playGame(playerInput) {
     let uChoice = getPlayerChoice(playerInput);
     let computerChoice = getComputerChoice();
     
-    console.log("Votre choix est : "+uChoice+"\nL'ordi a choisi : "+computerChoice); 
-
     console.log(findWinner(uChoice, computerChoice));
 }
 
